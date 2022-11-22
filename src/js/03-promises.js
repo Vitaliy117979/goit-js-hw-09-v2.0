@@ -3,7 +3,7 @@ import Notiflix from 'notiflix';
 const refs = {
   form: document.querySelector('.form'),
 };
-const formElements = { delay, step, amount, jsButton } = refs.form.elements
+const formElements = {delay, step, amount, jsButton} = refs.form.elements
 
 refs.form.addEventListener('submit', preventDefaultForm);
 function preventDefaultForm(e) {
